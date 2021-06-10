@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+    danielbwright:
+        container_name: rainyday2
+        build:
+            context: .
+        volumes:
+            - ./:/app
+        entrypoint: sleep 1d

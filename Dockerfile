@@ -12,4 +12,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     pip3 install rasterio --no-binary rasterio && \
     pip3 install -r requirements.txt && \
-    pip3 install -U black  
+    pip3 install -U black  && \
+    pip install numpy==1.22.4 
